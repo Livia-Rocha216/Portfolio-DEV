@@ -41,6 +41,39 @@
             font-weight: 600;
             text-shadow: 0 0 6px rgba(37, 36, 36, 0.6);
 }
+        .container-explicacao {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+}
+
+        .item-explicacao {
+            background-color: rgba(251, 235, 254, 0.8);
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+}
+
+        .item-explicacao:hover {
+            transform: scale(1.02);
+}
+
+        .item-explicacao h3 {
+            margin: 0;
+            color: #333;
+            font-size: 1.6rem;
+}
+
+        .item-explicacao p {
+            margin-top: 8px;
+            color: #555;
+            font-size: 1.1rem;
+}
+
         body{
             background: linear-gradient(to right, rgb(238, 228, 224), rgb(188, 162, 247));
             height: 100%;
@@ -51,9 +84,25 @@
 <html>
     <section id="inicio" class="hero container">
   <img src="image copy.png" alt="Isyako! Um personagem meu." class="foto-perfil">
-  <h1 class="nome-perfil">Lívia Rocha</h1>
-  <h4 class="creditos-perfil">Ícone por nobody.sk no Discord! Esse é um personagem meu,<br>então acho que conta como ícone.</h4>
-  <h4 class="aboutme-perfil">Howdy!<br> Me chamo Lívia Antenucci Rocha, e no momento estou no primeiro ano do <br> Ensino médio Técnico de T.I., aprendendo majoritariamente linguagens de programação como<br> Python, HTML, CSS e JS.<br> Trago este portfólio mostrando algumas das minhas habilidades em desenvolvimento de códigos<br> e algums projetos que tenho feito até agora. </h4>
+  <h1 class="nome-perfil">꒦꒷﹒Lívia Rocha</h1>
+  <h4 class="creditos-perfil">﹙Ícone por nobody.sk no Discord! Esse é um personagem meu,<br>então acho que conta como ícone.﹚</h4>
+  <h4 class="aboutme-perfil">｡ﾟ･ Howdy!<br> ⇢ Me chamo Lívia Antenucci Rocha, e no momento estou no primeiro ano do <br> Ensino médio Técnico de T.I., aprendendo majoritariamente linguagens de programação como<br> Python, HTML, CSS e JS.<br> Trago este portfólio mostrando algumas das minhas habilidades em desenvolvimento de códigos<br> e algums projetos que tenho feito até agora. </h4>
   <hr style="width: 50%; margin-left: auto; margin-right: auto; background-color:#fff; height: 2px; border: none;">
-  
+  <div class="container-explicacao">
+  <div class="item-explicacao">
+    <h3>✧ 1. HTML ↴</h3>
+    <p>Define a estrutura da página. É como o esqueleto de um site, com elementos como títulos, parágrafos e imagens.</p>
+  </div>
+
+  <div class="item-explicacao">
+    <h3>✧ 2. CSS ↴</h3>
+    <p>Controla o estilo visual. Define cores, fontes, espaçamentos e posicionamento dos elementos na tela.</p>
+  </div>
+
+  <div class="item-explicacao">
+    <h3>✧ 3. JavaScript ↴</h3>
+    <p>Adiciona interatividade. Permite animações, validações de formulário e respostas dinâmicas a ações do usuário.</p>
+  </div>
+</div>
+
 </html>
